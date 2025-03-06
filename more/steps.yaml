@@ -2,3 +2,5 @@ Create project:
   flutter create --org com.shirayurivineel calculator_1
   cd calculator_1
   code .
+Dependencies:
+  flutter pub add math_expressions
