@@ -1,0 +1,12 @@
+Parent folder:
+  D:\CodeLarge\ProgramFiles\Study\calculator_1\
+Android:
+  ...in D:\CodeLarge\ProgramFiles\Study\calculator_1\build\app\outputs\flutter-apk\
+  build\app\outputs\flutter-apk\app-release.apk
+  build\app\outputs\flutter-apk\app-debug.apk
+Windows:
+  ...in D:\CodeLarge\ProgramFiles\Study\calculator_1\build\windows\x64\runner\Release\
+  build\windows\x64\runner\Release\calculator_1.exe
+Web:
+  ...in D:\CodeLarge\ProgramFiles\Study\calculator_1\build\web\
+  build\web\
