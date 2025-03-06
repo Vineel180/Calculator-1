@@ -122,12 +122,15 @@ class _Homepage0State extends State<Homepage0> {
               child: TextField(
                 controller: textEditingController,
                 onSubmitted: _calculate0_withStringArgument,
+                //
                 keyboardType: TextInputType.visiblePassword,
                 inputFormatters: [
                   FilteringTextInputFormatter.allow(
                     RegExp(r'[0-9().+\-*/]'), //r'[0-9().+\-*/]'
+                    //I have never seen this (FilteringTextInputFormatter) work though...
                   ),
                 ],
+                //
                 style: const TextStyle(
                   color: Color.fromRGBO(191, 63, 255, 1),
                   fontSize: 24,
