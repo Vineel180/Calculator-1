@@ -1,6 +1,7 @@
 // ignore_for_file: non_constant_identifier_names, no_leading_underscores_for_local_identifiers
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:math_expressions/math_expressions.dart';
 
 ///import 'package:calculator_1/more/page0.dart';
@@ -122,6 +123,11 @@ class _Homepage0State extends State<Homepage0> {
                 controller: textEditingController,
                 onSubmitted: _calculate0_withStringArgument,
                 keyboardType: TextInputType.visiblePassword,
+                inputFormatters: [
+                  FilteringTextInputFormatter.allow(
+                    RegExp(r'[0-9().+\-*/]'), //r'[0-9().+\-*/]'
+                  ),
+                ],
                 style: const TextStyle(
                   color: Color.fromRGBO(191, 63, 255, 1),
                   fontSize: 24,
